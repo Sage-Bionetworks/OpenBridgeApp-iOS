@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF06B9472AAAA4EA009C53E6 /* SharedOpenBridgeApp in Frameworks */ = {isa = PBXBuildFile; productRef = FF06B9462AAAA4EA009C53E6 /* SharedOpenBridgeApp */; };
+		FF1462842AB91DEB00448264 /* SharedOpenBridgeApp in Frameworks */ = {isa = PBXBuildFile; productRef = FF1462832AB91DEB00448264 /* SharedOpenBridgeApp */; };
+		FF1462872AB91E2200448264 /* WashUArcWrapper-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = FF1462862AB91E2200448264 /* WashUArcWrapper-iOS */; };
+		FF1D7D5B279B3E7D0070F23C /* PrivacyPolicy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FF1D7D58279B3E7D0070F23C /* PrivacyPolicy.pdf */; };
+		FF1D7D5C279B3E7D0070F23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1D7D59279B3E7D0070F23C /* Assets.xcassets */; };
+		FF1D7D5D279B3E7D0070F23C /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1D7D5A279B3E7D0070F23C /* Launch.storyboard */; };
+		FF1F606329D388060061BAB1 /* OpenBridgeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F606229D388060061BAB1 /* OpenBridgeAppUITests.swift */; };
+		FF263B1B29945B6100EE3D7F /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF263B1A29945B6100EE3D7F /* FirebaseCrashlytics */; };
+		FF48147C29255D560067718D /* AssessmentIconPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48147B29255D560067718D /* AssessmentIconPreview.swift */; };
+		FF659B66297898DF0014E227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF659B48297898DF0014E227 /* ContentView.swift */; };
+		FF659B682978992C0014E227 /* Bundle+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF659B672978992C0014E227 /* Bundle+Module.swift */; };
+		FF78750926685E250061293C /* OpenBridgeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7874F726685E220061293C /* OpenBridgeAppApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1F606629D388060061BAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98666C9245782020068FC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7874FD26685E250061293C;
+			remoteInfo = "MobileToolboxApp (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF78756C266860870061293C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF1D7D58279B3E7D0070F23C /* PrivacyPolicy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PrivacyPolicy.pdf; sourceTree = "<group>"; };
+		FF1D7D59279B3E7D0070F23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1D7D5A279B3E7D0070F23C /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		FF1F606029D388060061BAB1 /* OpenBridgeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBridgeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1F606229D388060061BAB1 /* OpenBridgeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBridgeAppUITests.swift; sourceTree = "<group>"; };
+		FF3E2C332A4F68EA0093FA58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF48147B29255D560067718D /* AssessmentIconPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentIconPreview.swift; sourceTree = "<group>"; };
+		FF659B48297898DF0014E227 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF659B672978992C0014E227 /* Bundle+Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Module.swift"; sourceTree = "<group>"; };
+		FF7874F726685E220061293C /* OpenBridgeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBridgeAppApp.swift; sourceTree = "<group>"; };
+		FF7874FE26685E250061293C /* OpenBridgeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenBridgeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF78750026685E250061293C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE9EC92272341A700F91698 /* OpenBridgeApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenBridgeApp (iOS).entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1F605D29D388060061BAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7874FB26685E250061293C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1462842AB91DEB00448264 /* SharedOpenBridgeApp in Frameworks */,
+				FF06B9472AAAA4EA009C53E6 /* SharedOpenBridgeApp in Frameworks */,
+				FF1462872AB91E2200448264 /* WashUArcWrapper-iOS in Frameworks */,
+				FF263B1B29945B6100EE3D7F /* FirebaseCrashlytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98666C8245782020068FC30 = {
+			isa = PBXGroup;
+			children = (
+				FF3E2C332A4F68EA0093FA58 /* README.md */,
+				FFE9EC92272341A700F91698 /* OpenBridgeApp (iOS).entitlements */,
+				FF7874F626685E220061293C /* OpenBridgeApp */,
+				FF1F606129D388060061BAB1 /* OpenBridgeAppUITests */,
+				A98666E8245782A90068FC30 /* Frameworks */,
+				A98666D2245782020068FC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98666D2245782020068FC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7874FE26685E250061293C /* OpenBridgeApp.app */,
+				FF1F606029D388060061BAB1 /* OpenBridgeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98666E8245782A90068FC30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1D7D57279B3E7D0070F23C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF1D7D58279B3E7D0070F23C /* PrivacyPolicy.pdf */,
+				FF1D7D59279B3E7D0070F23C /* Assets.xcassets */,
+				FF1D7D5A279B3E7D0070F23C /* Launch.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF1F606129D388060061BAB1 /* OpenBridgeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F606229D388060061BAB1 /* OpenBridgeAppUITests.swift */,
+			);
+			path = OpenBridgeAppUITests;
+			sourceTree = "<group>";
+		};
+		FF7874F626685E220061293C /* OpenBridgeApp */ = {
+			isa = PBXGroup;
+			children = (
+				FFE038052A37B2850061AC7E /* Previews */,
+				FF1D7D57279B3E7D0070F23C /* Resources */,
+				FF78750026685E250061293C /* Info.plist */,
+				FF659B48297898DF0014E227 /* ContentView.swift */,
+				FF7874F726685E220061293C /* OpenBridgeAppApp.swift */,
+				FF659B672978992C0014E227 /* Bundle+Module.swift */,
+			);
+			path = OpenBridgeApp;
+			sourceTree = "<group>";
+		};
+		FFE038052A37B2850061AC7E /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				FF48147B29255D560067718D /* AssessmentIconPreview.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1F605F29D388060061BAB1 /* OpenBridgeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1F606A29D388060061BAB1 /* Build configuration list for PBXNativeTarget "OpenBridgeAppUITests" */;
+			buildPhases = (
+				FF1F605C29D388060061BAB1 /* Sources */,
+				FF1F605D29D388060061BAB1 /* Frameworks */,
+				FF1F605E29D388060061BAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1F606729D388060061BAB1 /* PBXTargetDependency */,
+			);
+			name = OpenBridgeAppUITests;
+			productName = MobileToolboxAppUITests;
+			productReference = FF1F606029D388060061BAB1 /* OpenBridgeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FF7874FD26685E250061293C /* OpenBridgeApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF78754326685E250061293C /* Build configuration list for PBXNativeTarget "OpenBridgeApp (iOS)" */;
+			buildPhases = (
+				FF7874FA26685E250061293C /* Sources */,
+				FF7874FB26685E250061293C /* Frameworks */,
+				FF7874FC26685E250061293C /* Resources */,
+				FF78756C266860870061293C /* Embed Frameworks */,
+				FF263B1C29947A4400EE3D7F /* Run Script - Crashlytics dSYM  */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenBridgeApp (iOS)";
+			packageProductDependencies = (
+				FF263B1A29945B6100EE3D7F /* FirebaseCrashlytics */,
+				FF06B9462AAAA4EA009C53E6 /* SharedOpenBridgeApp */,
+				FF1462832AB91DEB00448264 /* SharedOpenBridgeApp */,
+				FF1462862AB91E2200448264 /* WashUArcWrapper-iOS */,
+			);
+			productName = "MobileToolboxApp (iOS)";
+			productReference = FF7874FE26685E250061293C /* OpenBridgeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98666C9245782020068FC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Sage Bionetworks";
+				TargetAttributes = {
+					FF1F605F29D388060061BAB1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF7874FD26685E250061293C;
+					};
+					FF7874FD26685E250061293C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A98666CC245782020068FC30 /* Build configuration list for PBXProject "OpenBridgeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98666C8245782020068FC30;
+			packageReferences = (
+				FF263B1929945B6100EE3D7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FF1462822AB91DEB00448264 /* XCRemoteSwiftPackageReference "SharedOpenBridgeApp-iOS" */,
+				FF1462852AB91E2200448264 /* XCRemoteSwiftPackageReference "WashUArcWrapper-iOS" */,
+			);
+			productRefGroup = A98666D2245782020068FC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7874FD26685E250061293C /* OpenBridgeApp (iOS) */,
+				FF1F605F29D388060061BAB1 /* OpenBridgeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1F605E29D388060061BAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7874FC26685E250061293C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1D7D5C279B3E7D0070F23C /* Assets.xcassets in Resources */,
+				FF1D7D5B279B3E7D0070F23C /* PrivacyPolicy.pdf in Resources */,
+				FF1D7D5D279B3E7D0070F23C /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF263B1C29947A4400EE3D7F /* Run Script - Crashlytics dSYM  */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Run Script - Crashlytics dSYM ";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\necho ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}\necho $(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1F605C29D388060061BAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1F606329D388060061BAB1 /* OpenBridgeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7874FA26685E250061293C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF659B682978992C0014E227 /* Bundle+Module.swift in Sources */,
+				FF78750926685E250061293C /* OpenBridgeAppApp.swift in Sources */,
+				FF48147C29255D560067718D /* AssessmentIconPreview.swift in Sources */,
+				FF659B66297898DF0014E227 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1F606729D388060061BAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7874FD26685E250061293C /* OpenBridgeApp (iOS) */;
+			targetProxy = FF1F606629D388060061BAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A98666E3245782060068FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 8;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98666E4245782060068FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1F606829D388060061BAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = KA9Z8R6M6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagebase.MobileToolboxValidationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MobileToolboxApp (iOS)";
+			};
+			name = Debug;
+		};
+		FF1F606929D388060061BAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = KA9Z8R6M6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagebase.MobileToolboxValidationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MobileToolboxApp (iOS)";
+			};
+			name = Release;
+		};
+		FF78750F26685E250061293C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "OpenBridgeApp (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenBridgeApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Bridge";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagebionetworks.MobileToolboxValidationApp;
+				PRODUCT_NAME = OpenBridgeApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF78751026685E250061293C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "OpenBridgeApp (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenBridgeApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Bridge";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagebionetworks.MobileToolboxValidationApp;
+				PRODUCT_NAME = OpenBridgeApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98666CC245782020068FC30 /* Build configuration list for PBXProject "OpenBridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98666E3245782060068FC30 /* Debug */,
+				A98666E4245782060068FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1F606A29D388060061BAB1 /* Build configuration list for PBXNativeTarget "OpenBridgeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1F606829D388060061BAB1 /* Debug */,
+				FF1F606929D388060061BAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF78754326685E250061293C /* Build configuration list for PBXNativeTarget "OpenBridgeApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF78750F26685E250061293C /* Debug */,
+				FF78751026685E250061293C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF1462822AB91DEB00448264 /* XCRemoteSwiftPackageReference "SharedOpenBridgeApp-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BridgeDigitalHealth/SharedOpenBridgeApp-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+		FF1462852AB91E2200448264 /* XCRemoteSwiftPackageReference "WashUArcWrapper-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BridgeDigitalHealth/WashUArcWrapper-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		FF263B1929945B6100EE3D7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF06B9462AAAA4EA009C53E6 /* SharedOpenBridgeApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedOpenBridgeApp;
+		};
+		FF1462832AB91DEB00448264 /* SharedOpenBridgeApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF1462822AB91DEB00448264 /* XCRemoteSwiftPackageReference "SharedOpenBridgeApp-iOS" */;
+			productName = SharedOpenBridgeApp;
+		};
+		FF1462862AB91E2200448264 /* WashUArcWrapper-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF1462852AB91E2200448264 /* XCRemoteSwiftPackageReference "WashUArcWrapper-iOS" */;
+			productName = "WashUArcWrapper-iOS";
+		};
+		FF263B1A29945B6100EE3D7F /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF263B1929945B6100EE3D7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A98666C9245782020068FC30 /* Project object */;
+}
